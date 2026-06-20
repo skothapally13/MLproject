@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<div class="login">
+
+<h1>Welcome to Telco Customer Churn Prediction</h1>
+
+<p>
+This application predicts whether a customer is likely to leave the telecom company based on customer details.
+</p>
+
+<form action="{{ url_for('predict_datapoint') }}" method="get">
+
+<input 
+class="btn btn-primary" 
+type="submit" 
+value="Start Prediction">
+
+</form>
+
+</div>
+
+</body>
+</html>
